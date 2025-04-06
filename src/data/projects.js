@@ -1,10 +1,18 @@
+// First import all your images
+import bgColor from '@/assets/bg-color.png';
+import currencyConverter from '@/assets/Screenshot (40).png';
+import demoWebsite from '@/assets/Screenshot (41).png';
+import passwordGen from '@/assets/Screenshot (42).png';
+import todoList from '@/assets/Screenshot (43).png';
+import portfolio from '@/assets/Screenshot (44).png';
+
 export const allProjects = [
   {
     id: 1,
     title: 'Background Color',
     description: 'A simple background color generator',
     tags: ['React', 'TailwindCSS'],
-    image: '../src/assets/bg-color.png',
+    image: bgColor, // Use the imported variable
     codeUrl:
       'https://github.com/SwarajThakre/React_projects/tree/main/bg_color',
     liveUrl: '#',
@@ -15,7 +23,7 @@ export const allProjects = [
     title: 'Currency Converter',
     description: 'Convert currencies in real-time',
     tags: ['React', 'API', 'Tailwind'],
-    image: '../src/assets/Screenshot (40).png',
+    image: currencyConverter,
     codeUrl:
       'https://github.com/SwarajThakre/React_projects/tree/main/currency_converter',
     liveUrl: '#',
@@ -24,45 +32,45 @@ export const allProjects = [
   {
     id: 3,
     title: 'Demo Website',
-    description: 'A demo website for a company',
+    description: 'A simple demo website',
     tags: ['React', 'Tailwind'],
-    image: '../src/assets/Screenshot (41).png',
+    image: demoWebsite,
     codeUrl:
-      'https://github.com/SwarajThakre/React_projects/tree/main/demo-website',
+      'https://github.com/SwarajThakre/React_projects/tree/main/demo_website',
     liveUrl: '#',
     featured: true,
   },
   {
     id: 4,
     title: 'Password Generator',
-    description: 'Generate secure passwords',
-    tags: ['React', 'TailwindCSS'],
-    image: '../src/assets/Screenshot (42).png',
+    description: 'Generate strong and secure passwords',
+    tags: ['React', 'Tailwind'],
+    image: passwordGen,
     codeUrl:
       'https://github.com/SwarajThakre/React_projects/tree/main/password_gen',
     liveUrl: '#',
-    featured: false,
+    featured: true,
   },
   {
     id: 5,
     title: 'Todo List',
-    description: 'A simple todo list application',
-    tags: ['React', 'TailwindCSS'],
-    image: '../src/assets/Screenshot (43).png',
-    codeUrl: 'https://github.com/SwarajThakre/React_projects/tree/main/to-do',
+    description: 'A simple todo list',
+    tags: ['React', 'Tailwind'],
+    image: todoList,
+    codeUrl:
+      'https://github.com/SwarajThakre/React_projects/tree/main/todo_list',
     liveUrl: '#',
-    featured: false,
+    featured: true,
   },
   {
     id: 6,
-    title: 'React Portfolio',
-    description:
-      'A portfolio website built with React and TailwindCSS for showcasing projects',
-    tags: ['React', 'TailwindCSS'],
-    image: '../src/assets/Screenshot (44).png',
-    codeUrl: '#',
+    title: 'Portfolio',
+    description: 'A simple portfolio',
+    tags: ['React', 'Tailwind'],
+    image: portfolio,
+    codeUrl: 'https://github.com/SwarajThakre/React_portfolio',
     liveUrl: '#',
-    featured: false,
+    featured: true,
   },
 ];
 

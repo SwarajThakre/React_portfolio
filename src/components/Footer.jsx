@@ -1,4 +1,5 @@
 import { FiGithub, FiTwitter, FiLinkedin, FiMail } from 'react-icons/fi';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 export default function Footer() {
   return (
@@ -49,24 +50,24 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 flex justify-center space-x-6 text-sm">
-          <a
-            href="/privacy"
+          <Link
+            to="/privacy"
             className="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 transition-colors"
           >
             Privacy Policy
-          </a>
-          <a
-            href="/terms"
+          </Link>
+          <Link
+            to="/terms"
             className="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 transition-colors"
           >
             Terms of Service
-          </a>
-          <a
-            href="/contact"
+          </Link>
+          <Link
+            to="/contact" // This links to your Contact page
             className="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 transition-colors"
           >
             Contact
-          </a>
+          </Link>
         </div>
       </div>
     </footer>
