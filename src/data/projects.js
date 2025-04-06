@@ -26,7 +26,7 @@ export const allProjects = [
     image: currencyConverter,
     codeUrl:
       'https://github.com/SwarajThakre/React_projects/tree/main/currency_converter',
-    liveUrl: '#',
+    liveUrl: 'https://forrates-converter.vercel.app',
     featured: true,
   },
   {
@@ -59,7 +59,7 @@ export const allProjects = [
     image: todoList,
     codeUrl:
       'https://github.com/SwarajThakre/React_projects/tree/main/todo_list',
-    liveUrl: '#',
+    liveUrl: 'https://taskify-26.vercel.app/',
     featured: true,
   },
   {
